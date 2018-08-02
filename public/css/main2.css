@@ -1,0 +1,67 @@
+body{
+  background-color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  font-size:12px;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  background-color:white;
+  margin: 0 auto;
+  margin-top:100px;
+  width:500px;
+  height:300px;
+  box-shadow: 1px 2px 15px #d3d3d3;
+  border-radius:2px;
+}
+
+.tabHeader{
+  width:80px;
+  height:50px;
+  background-color:#47bc8b;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.active{
+  position:relative;
+  z-index:50;
+  width:80px;
+  height:50px;
+  background-color:#259162;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.tabText{
+  
+  position:absolute;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  font-size:12px;
+  margin-top:16px;
+  margin-left:23px;
+  
+}
+
+.textHolder{
+  margin:20px;
+  text-align: justify;
+}
+
+.tabTitle{
+  font-size:20px;
+  font-weight:600;
+  padding:0 0 20px 0;
+}
+
+
+/* MENU */
+.menu:hover {
+
+    background-color: #87decc;
+    border-radius: 10%;
+
+}

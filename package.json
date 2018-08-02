@@ -1,0 +1,33 @@
+{
+  "name": "neqtar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tojokely/neqtarmarket.git"
+  },
+  "author": "tojosoa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tojokely/neqtarmarket/issues"
+  },
+  "homepage": "https://github.com/tojokely/neqtarmarket#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongodb": "^3.1.1",
+    "node-forge": "^0.7.5",
+    "ravepay": "0.0.4",
+    "request": "^2.87.0",
+    "utf8": "^3.0.0"
+  }
+}
