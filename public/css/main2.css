@@ -322,6 +322,8 @@ button,
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
+        /*this is just for the pay buttons*/
+    margin-top: 35%;
 }
 
 .button a {
