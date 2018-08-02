@@ -142,6 +142,16 @@ a {
     box-shadow: 0px 0px 22px -8px #808080;
 }
 
+.right .graph .first {
+    background-image: url('./images/2product.jpg');
+    background-size: cover;
+}
+
+.right .graph .second {
+    background-image: url('./images/2product.jpg');
+    background-size: cover;
+}
+
 .right .graph .stock {
     margin: 0;
     margin-left: 20px;
@@ -324,7 +334,9 @@ button,
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
-}
+    /*this is just for the pay buttons*/
+    margin-top: 35%;
+
 
 .button a {
     color: white;
