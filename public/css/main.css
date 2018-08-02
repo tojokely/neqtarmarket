@@ -202,6 +202,8 @@ a {
 .right .sub-title {
     margin-bottom: 10px;
     color: #00008b;
+    font-weight: bolder;
+    margin-left: 22px;
 }
 
 .right .half {
