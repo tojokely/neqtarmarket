@@ -200,7 +200,7 @@ function showForm(txref, email, amount) {
 
 function showFormV2(txref, email, amount, callback) {
     var link;
-    var payload = {"txref":txref,"PBFPubKey":RAVE_PK, "customer_email": email, "amount": amount, "currency": "NGN", "redirect_url": "http://localhost:3000/"}
+    var payload = {"txref":txref,"PBFPubKey":RAVE_PK, "customer_email": email, "amount": amount, "currency": "NGN", "redirect_url": "http://neqtarmarket.herokuapp.com/"}
      request({
         uri: 'https://ravesandboxapi.flutterwave.com/flwv3-pug/getpaidx/api/v2/hosted/pay',
         method: 'POST',

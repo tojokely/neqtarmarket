@@ -61,7 +61,7 @@ app.get('/transferBank', function(req,res){
     res.sendFile(__dirname + '/views/transfer.html');
 })
 app.get('/pay1', function(req, res) {
-    card.payV2("20", key, function(d) {
+    card.payV2("2000", key, function(d) {
         card.showFormV2(d[0], d[1], d[2], function(obj) {
             let link = obj
             txRef = d[0];
@@ -71,7 +71,7 @@ app.get('/pay1', function(req, res) {
     })
 });
 app.get('/pay2', function(req, res) {
-    card.payV2("50", key, function(d) {
+    card.payV2("5000", key, function(d) {
         card.showFormV2(d[0], d[1], d[2], function(obj) {
             let link = obj
             txRef = d[0];
