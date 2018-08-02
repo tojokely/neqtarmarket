@@ -32,7 +32,7 @@
                 </svg>
             </div>
             <div class="company">
-                <div class="company-name">Name</div>
+                <div class="company-name">Neqtar</div>
                 <div class="company-description">Marketplace for the whole world</div>
             </div>
             <div class="navigation">
@@ -57,7 +57,7 @@
         </div>
         <div class="right">
             <div class="title">List of transactions</div>
-            <div class="description">Send money to a local bank account.</div>
+            <div class="description"></div>
             <div class="row" style="text-align: center">
                 <!-- Table -->
                 <div class="table-wrapper">
@@ -80,71 +80,6 @@
     <!-- Scripts -->
     <script src="./js/jquery.min.js"></script>
     <script type="text/javascript">
-     /*var dataHolder = [
-        ['208930',
-            '208565',
-            '208558',
-            '208548',
-            '208532',
-            '208258',
-            '208257',
-            '208255',
-            '208253',
-            '208250',
-            '208930',
-            '208565',
-            '208558',
-            '208548',
-            '208532',
-            '208258',
-            '208257',
-            '208255',
-            '208253',
-            '208250'
-        ],
-        ['MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558',
-            'MC-f14558588558'
-        ],
-        ['card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card',
-            'card'
-        ]
-    ]*/
     var dataHolder = <%- JSON.stringify(transactionList) %>
     console.log(dataHolder)
     var data = ["first", "second", "third", "fourth"]
@@ -157,10 +92,6 @@
             "<td>" + dataHolder[2][i] + "</td>"  + "<td><button data-arrayIndex='" + i + "' onclick='deleteData()'>Delete</button></td>" + "</tr>";
     }
     $("#tbody").html(h);
-
-
-    //$('#tbody').appendChild(table);
-    /*$('#table').append("<table><thead><tr><th>Name</th><th>Description</th><th>Price</th></tr></thead><tbody><tr><td>Alpha</td><td>Ante turpis integer aliquet porttitor.</td><td>10.00</td></tr><tr><td>Beta</td><td>Vis ac commodo adipiscing arcu aliquet.</td><td>20.00</td></tr></tbody><tfoot><tr><td colspan='2'></td><td>360.00</td> </tr></tfoot></table>")*/
     </script>
     <script type="text/javascript" src="https://ravesandboxapi.flutterwave.com/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
 </body>
