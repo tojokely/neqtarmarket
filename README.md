@@ -4,4 +4,5 @@ NodeJS-based payment platform using Flutterwave's Rave API. User is able to:
 - Verify a payment
 - Manage subscriptions
 - Manage subaccounts
-API Link: https://developer.flutterwave.com/docs/api-introduction
+
+Rave API Info: https://developer.flutterwave.com/docs/api-introduction
